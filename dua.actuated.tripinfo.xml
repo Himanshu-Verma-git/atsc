@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2026-04-18T20:03:47.579523+05:30 by Eclipse SUMO GUI 1.26.0
+<sumoConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="lust.net.xml"/>
+        <route-files value="buslines.rou.xml,DUARoutes/local.0.rou.xml,DUARoutes/local.1.rou.xml,DUARoutes/local.2.rou.xml,transit.rou.xml"/>
+        <additional-files value="vtypes.add.xml,busstops.add.xml,e1detectors.add.xml,lust.poly.xml"/>
+    </input>
+
+    <output>
+        <summary-output value="dua.actuated.summary.xml"/>
+        <tripinfo-output value="dua.actuated.tripinfo.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <step-length value="1"/>
+    </time>
+
+    <processing>
+        <ignore-junction-blocker value="20"/>
+        <time-to-teleport value="600"/>
+        <max-depart-delay value="600"/>
+    </processing>
+
+    <routing>
+        <routing-algorithm value="dijkstra"/>
+        <device.rerouting.probability value="0.70"/>
+        <device.rerouting.period value="300"/>
+        <device.rerouting.pre-period value="300"/>
+    </routing>
+
+    <report>
+        <verbose value="true"/>
+        <log value="dua.actuated.log"/>
+    </report>
+
+</sumoConfiguration>
+-->
+
+<tripinfos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/tripinfo_file.xsd">
+    <tripinfo id="randUni834:1" depart="5.00" departLane="--32406#3_0" departPos="47.79" departSpeed="0.00" departDelay="0.00" arrival="43.00" arrivalLane="--31212_0" arrivalPos="134.87" arrivalSpeed="0.11" duration="38.00" routeLength="415.49" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="8.40" rerouteNo="0" devices="tripinfo_randUni834:1" vType="passenger2b" speedFactor="1.01" vaporized=""/>
+    <tripinfo id="randUni16882:1" depart="14.00" departLane="-32340#7_0" departPos="231.77" departSpeed="0.00" departDelay="0.00" arrival="100.00" arrivalLane="-32660_0" arrivalPos="36.68" arrivalSpeed="0.12" duration="86.00" routeLength="1057.22" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="17.46" rerouteNo="0" devices="tripinfo_randUni16882:1 routing_randUni16882:1" vType="passenger1" speedFactor="1.11" vaporized=""/>
+    <tripinfo id="randUni16882:1.7" depart="17.00" departLane="-32340#7_0" departPos="223.92" departSpeed="0.00" departDelay="3.00" arrival="107.00" arrivalLane="-32660_0" arrivalPos="24.42" arrivalSpeed="0.16" duration="90.00" routeLength="1052.81" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="15.23" rerouteNo="0" devices="tripinfo_randUni16882:1.7 routing_randUni16882:1.7" vType="passenger1" speedFactor="1.01" vaporized=""/>
+    <tripinfo id="randUni16882:1.1" depart="14.00" departLane="-32340#7_0" departPos="154.05" departSpeed="0.00" departDelay="0.00" arrival="116.00" arrivalLane="-32660_0" arrivalPos="51.11" arrivalSpeed="0.28" duration="102.00" routeLength="1149.37" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="33.88" rerouteNo="0" devices="tripinfo_randUni16882:1.1" vType="passenger1" speedFactor="1.21" vaporized=""/>
+    <tripinfo id="randUni16882:1.4" depart="15.00" departLane="-32340#7_0" departPos="196.77" departSpeed="0.00" departDelay="1.00" arrival="119.00" arrivalLane="-32660_0" arrivalPos="138.57" arrivalSpeed="3.87" duration="104.00" routeLength="1194.11" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="22.48" rerouteNo="0" devices="tripinfo_randUni16882:1.4 routing_randUni16882:1.4" vType="passenger1" speedFactor="1.05" vaporized=""/>
+    <tripinfo id="randUni16882:1.9" depart="20.00" departLane="-32340#7_0" departPos="181.32" departSpeed="0.00" departDelay="6.00" arrival="127.00" arrivalLane="-32660_0" arrivalPos="122.88" arrivalSpeed="0.16" duration="107.00" routeLength="1193.86" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="18.88" rerouteNo="0" devices="tripinfo_randUni16882:1.9 routing_randUni16882:1.9" vType="passenger1" speedFactor="0.98" vaporized=""/>
+    <tripinfo id="randUni16882:1.8" depart="17.00" departLane="-32340#7_0" departPos="133.70" departSpeed="0.00" departDelay="3.00" arrival="138.00" arrivalLane="-32660_0" arrivalPos="115.45" arrivalSpeed="1.46" duration="121.00" routeLength="1234.06" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="12.88" rerouteNo="0" devices="tripinfo_randUni16882:1.8" vType="passenger1" speedFactor="0.82" vaporized=""/>
+</tripinfos>

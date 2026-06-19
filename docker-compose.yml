@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  sumo-sim:
+    build: .
+    volumes:
+      - .:/app
+      - /tmp/.X11-unix:/tmp/.X11-unix
+    environment:
+      - SUMO_HOME=/usr/share/sumo
+      - DISPLAY=$DISPLAY
+    devices:
+      - /dev/dri:/dev/dri
+    network_mode: host

@@ -1,0 +1,8 @@
+traci
+sumolib
+scikit-fuzzy
+pandas
+matplotlib
+numpy
+scipy
+networkx

@@ -1,0 +1,24 @@
+Loading net-file from 'lust.net.xml' ... done (2197ms).
+Loading additional-files from 'vtypes.add.xml' ... done (7ms).
+Loading additional-files from 'busstops.add.xml' ... done (18ms).
+Loading additional-files from 'e1detectors.add.xml' ... done (113ms).
+Loading additional-files from 'lust.poly.xml' ... done (870ms).
+Warning: Unsafe green phase 2 in tlLogic '-30132', program '0'. Lane '--31508#2_0' is targeted by 2 'G'-links. (use 'g' instead)
+Loading route-files incrementally from 'buslines.rou.xml'
+Loading route-files incrementally from 'DUARoutes/local.0.rou.xml'
+Loading route-files incrementally from 'DUARoutes/local.1.rou.xml'
+Loading route-files incrementally from 'DUARoutes/local.2.rou.xml'
+Loading route-files incrementally from 'transit.rou.xml'
+Loading done.
+Simulation started with time: 0.00.
+Simulation ended at time: 155.00.
+Performance:
+ Duration: 104.32s
+ Real time factor: 1.48587
+ UPS: 637.668239
+Vehicles:
+ Inserted: 1041 (Loaded: 60007)
+ Running: 1034
+ Waiting: 43964
+DijkstraRouter answered 23893 queries and explored 2554.45 edges on average.
+DijkstraRouter spent 53.68s answering queries (2.25ms on average).
