@@ -8,7 +8,7 @@ from monitoring_system import MonitoringSystem
 
 def run_fuzzy():
     print("Starting Fuzzy ATSC Simulation...")
-    start_simulation(run_name="fuzzy", use_gui=True)
+    start_simulation(run_name="fuzzy", use_gui=False)
     
     historic_data = {}
     if os.path.exists(HISTORIC_DATA_FILE):

@@ -1,9 +1,4 @@
-<!--
-Luxembourg SUMO Traffic (LuST) Scenario
-This project is licensed under the terms of the MIT license.
-Author: Lara CODECA [codeca@gmail.com]
--->
-
+<?xml version='1.0' encoding='UTF-8'?>
 <add>
 	<busStop id="10" lane="-32940#0_0" startPos="202.435562991" endPos="212.435562991" line=" AVL---_1 AVL---_12" />
 	<busStop id="102" lane="-31912#1_0" startPos="177.605137482" endPos="187.605137482" line=" AVL---_J1" />
@@ -35,7 +30,7 @@ Author: Lara CODECA [codeca@gmail.com]
 	<busStop id="13" lane="--31410_0" startPos="345.666402293" endPos="355.666402293" line=" CBBS___BuS_1" />
 	<busStop id="130" lane="--31992#5_0" startPos="25.4866345317" endPos="35.4866345317" line=" AVL---_12 AVL---_8 AVL---_CN_2" />
 	<busStop id="131" lane="-31992#5_0" startPos="92.7556388977" endPos="102.755638898" line=" AVL---_12 AVL---_8 AVL---_CN_2" />
-	<busStop id="132" lane="-32574_0" startPos="148.304995448" endPos="158.304995448" line=" AVL---_2 AVL---_4 AVL---_CN_2" />
+	<busStop id="132" lane="-32574_0" startPos="147.16" endPos="157.16" line=" AVL---_2 AVL---_4 AVL---_CN_2" />
 	<busStop id="133" lane="--32278#6_0" startPos="658.335551005" endPos="668.335551005" line=" AVL---_1 AVL---_16 AVL---_CN_4" />
 	<busStop id="134" lane="-32278#6_0" startPos="337.375447577" endPos="347.375447577" line=" AVL---_1 AVL---_16 AVL---_CN_4" />
 	<busStop id="135" lane="--30528#13_0" startPos="30.146002373" endPos="40.146002373" line=" AVL---_1 AVL---_10 AVL---_11 AVL---_13 AVL---_14 AVL---_15 AVL---_16 AVL---_18 AVL---_2 AVL---_20 AVL---_21 AVL---_23 AVL---_3 AVL---_4 AVL---_5 AVL---_6 AVL---_8 AVL---_9 AVL---_CN_1 AVL---_CN_3 AVL---_J2 RGM---_120" />
@@ -209,7 +204,7 @@ Author: Lara CODECA [codeca@gmail.com]
 	<busStop id="316" lane="-30646#4_0" startPos="60.8120465806" endPos="70.8120465806" line=" AVL---_3 AVL---_CN_2" />
 	<busStop id="317" lane="--32646#0_0" startPos="53.7891771855" endPos="63.7891771855" line=" AVL---_14" />
 	<busStop id="318" lane="-32646#0_0" startPos="42.4425305328" endPos="52.4425305328" line=" AVL---_14" />
-	<busStop id="319" lane="--32750#4_0" startPos="30.2680634357" endPos="40.2680634357" line=" AVL---_6 AVL---_CN_2" />
+	<busStop id="319" lane="--32750#4_0" startPos="28.97" endPos="38.97" line=" AVL---_6 AVL---_CN_2" />
 	<busStop id="32" lane="-32652#3_0" startPos="29.647512377" endPos="39.647512377" line=" AVL---_19 AVL---_3" />
 	<busStop id="320" lane="-32750#4_0" startPos="27.6842674965" endPos="37.6842674965" line=" AVL---_6 AVL---_CN_2" />
 	<busStop id="321" lane="-31952#16_0" startPos="322.655664389" endPos="332.655664389" line=" AVL---_21 AVL---_J2" />
@@ -379,8 +374,8 @@ Author: Lara CODECA [codeca@gmail.com]
 	<busStop id="501" lane="--32638#10_0" startPos="38.7070606174" endPos="48.7070606174" line=" AVL---_CN_3" />
 	<busStop id="502" lane="--30766#4_0" startPos="57.7853794158" endPos="67.7853794158" line=" AVL---_12" />
 	<busStop id="503" lane="-30766#4_0" startPos="58.9685989466" endPos="68.9685989466" line=" AVL---_12" />
-	<busStop id="504" lane="--30694#5_0" startPos="10.1163326242" endPos="20.1163326242" line=" AVL---_3" />
-	<busStop id="505" lane="-30694#5_0" startPos="8.62154791308" endPos="18.6215479131" line=" AVL---_3" />
+	<busStop id="504" lane="--30694#5_0" startPos="8.30" endPos="18.30" line=" AVL---_3" />
+	<busStop id="505" lane="-30694#5_0" startPos="8.30" endPos="18.30" line=" AVL---_3" />
 	<busStop id="506" lane="--31496#3_0" startPos="310.671521273" endPos="320.671521273" line=" AVL---_6" />
 	<busStop id="507" lane="-31496#3_0" startPos="47.8520652708" endPos="57.8520652708" line=" AVL---_6" />
 	<busStop id="508" lane="-30710#0_0" startPos="35.3790286235" endPos="45.3790286235" line=" AVL---_2 AVL---_4 AVL---_CN_2" />
@@ -478,7 +473,7 @@ Author: Lara CODECA [codeca@gmail.com]
 	<busStop id="600" lane="--32966#6_0" startPos="177.273038893" endPos="187.273038893" line=" AVL---_14" />
 	<busStop id="601" lane="-32966#6_0" startPos="64.6430933303" endPos="74.6430933303" line=" AVL---_14" />
 	<busStop id="602" lane="-32432#8_0" startPos="42.2282912109" endPos="52.2282912109" line=" AVL---_15" />
-	<busStop id="603" lane="--32432#8_0" startPos="448.781018086" endPos="458.781018086" line=" AVL---_15" />
+	<busStop id="603" lane="--32432#8_0" startPos="446.52" endPos="456.52" line=" AVL---_15" />
 	<busStop id="604" lane="-30856#2_0" startPos="203.057863737" endPos="213.057863737" line=" AVL---_14 AVL---_CN_1" />
 	<busStop id="605" lane="--30856#2_0" startPos="419.402695963" endPos="429.402695963" line=" AVL---_14 AVL---_CN_1" />
 	<busStop id="606" lane="--32278#1_0" startPos="65.9949395945" endPos="75.9949395945" line=" AVL---_1 AVL---_16 AVL---_18 AVL---_CN_4 C82---_CFB CNA____NBNA NBSKMS_Nightbus RGM---_120" />

@@ -30,7 +30,9 @@ def start_simulation(run_name="baseline", use_gui=False, additional_args=None):
     
     if additional_args:
         cmd.extend(additional_args)
+
     
+    print(cmd)
     traci.start(cmd)
     
 def get_signalized_intersections():
